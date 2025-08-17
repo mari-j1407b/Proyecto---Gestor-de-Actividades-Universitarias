@@ -3,7 +3,7 @@
 Aquí se registrarán los avances relevantes del proyecto
 anotados de la siguiente manera:
 
-## Semana 1 (Fecha)
-- **Decisión**: [Descripción breve].
+## Semana 1 (16.08)
+- **Acción**: [Creando base inicial del proyecto: estructura de carpetas, issues y label].
 - **Avances**:  
-  - @Nombre: [Tarea completada].
+  - María Belén : [Tarea completada].
