@@ -1,0 +1,13 @@
+Holaa c;
+Esta es la carpeta "data"!  
+
+- Aquí se guardan los ARCHIVOS DE DATOS generados por el programa.  
+- Ejemplos:  
+  - actividades.json: Guarda las actividades registradas.  
+  - backup/: Copias de seguridad (si las necesitan).  
+
+Importante:  
+1. No editar manualmente los archivos .json mientras el programa corre.  
+2. Los archivos aquí son IMPORTANTES: ¡No borrarlos sin avisar!  
+
+- Mari･ﾟ✧
