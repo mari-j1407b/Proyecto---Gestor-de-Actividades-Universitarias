@@ -19,4 +19,10 @@ elif opc == 3:
     criterio_busqueda = input("Ingrese el criterio de busqueda: ").lower()
     
     for actividad in actividades_universitarias:
-        pass
+        if (criterio_busqueda in actividad.actividad.lower() or 
+            criterio_busqueda == actividad.dia.lower() or 
+            criterio_busqueda == actividad.mes.lower() or
+            criterio_busqueda == actividad.año.lower() or
+            criterio_busqueda == actividad.prioridad.lower()):
+            print(actividad)
+    pass
