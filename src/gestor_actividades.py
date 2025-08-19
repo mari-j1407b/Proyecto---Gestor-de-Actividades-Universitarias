@@ -47,8 +47,9 @@ while True:
     for actividad in actividades_universitarias:
         if eldia == actividad.dia:
             if elmes == actividad.mes:
-                if elaño == actividad.mes:   # ❌ ERROR
+                if elaño == actividad.año:
                     pass
+
 
 
 
