@@ -26,5 +26,7 @@ while True:
     print("Opcion 5: salir del programa")
     opc = input("Elija una opcion valida del menu: ")
     
-    if opc == 5: 
-        break
+    if opc == 1:
+        os.system('cls')
+        print("Elijio la opcion 1, registrar una actividad")
+       
