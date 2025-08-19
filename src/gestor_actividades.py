@@ -40,4 +40,9 @@ while True:
     for i in actividades_universitarias:
         print(i)
 
+    edila = input("Ingrese el dia a buscar: ").lower()
+    elmes = input("Ingrese el mes a buscar: ").lower()
+    elaño = input("Ingrese el año a buscar: ").lower()
+
+
 
