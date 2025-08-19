@@ -14,9 +14,6 @@ class actividades:
 actividades_universitarias = []
 
 while True:
-    import os
-
-while True:
     os.system("cls")
     print("Bienvenido al menu de opciones del gestor de actividades")
     print("Opcion 1: Registro de Actividad por fecha y prioridad")
