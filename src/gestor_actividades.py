@@ -53,20 +53,13 @@ while True:
     elif opc == "4":
         os.system('cls')
         print("Eligió la opción 4, eliminar actividad")
-        print("Estas son todas las actividades registradas:")
+        print(f"estas son todas la actividad resgitradas, ingrese la que quiere eliminar")
         for i in actividades_universitarias:
             print(i)
-
-        eldia = input("Ingrese el día a buscar: ").lower()
-        elmes = input("Ingrese el mes a buscar: ").lower()
+        eldia = input("Ingrese el dia a buscar: ").lower()
+        elmes = input("Ingrese le mes a buscar: ").lower()
         elaño = input("Ingrese el año a buscar: ").lower()
-
-        actividades_a_eliminar = [act for act in actividades_universitarias if act.dia == eldia and act.mes == elmes and act.año == elaño]
-        for act in actividades_a_eliminar:
-            actividades_universitarias.remove(act)
-            print(f"Se ha eliminado la actividad: {act}")
-
-    elif opc == "5":
+        
         print("Saliendo del programa…")
         break
 
