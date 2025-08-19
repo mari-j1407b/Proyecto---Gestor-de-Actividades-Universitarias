@@ -49,7 +49,8 @@ while True:
             if elmes == actividad.mes:
                 if elaño == actividad.año:
                     actividades_universitarias.remove(actividad)
-                    # ❌ Falta mensaje
+                    print("Se ha eliminado la actividad")
+
 
 
 
