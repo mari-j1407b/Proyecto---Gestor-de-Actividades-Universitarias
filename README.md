@@ -19,8 +19,10 @@ Al inicializar el programa, se pide que se coloque una opción válida del menú
 Seguido de eso, continúa con la opción de presionar enter para continuar seleccionando opciones
 
 -Al escoger la opción 2 se le pide al usuario la palabra clave de la actividad a buscar
+Si se desea seguir seleccionando opciones, saldrá la opción de presionar enter para continuar con el programa 
 
 -Al escoger la opción 3 se le pide al usuario que ingrese el mes o año a buscar
+Se se desea continuar nuevamente, se mostrará la opción de seleccionar enter para continuar con el programa 
 
 Seleccionando la opción 4 se le muestra al usuario las actividades registradas, como el nombre, día, mes y priodidad de dicha actividad, dando la opción de elegir qué actividad se desea eliminar.
 
