@@ -1,7 +1,7 @@
 import os
 
 class actividades:
-    def __init_(self, actividad, dia, mes, año, prioridad):
+    def __init__(self, actividad, dia, mes, año, prioridad):
         self.actividad = actividad
         self.dia = dia
         self.mes = mes
@@ -14,14 +14,24 @@ class actividades:
 actividades_universitarias = []
 
 while True:
-    import os
-
-while True:
-    os.system('cls')
+    os.system("cls")
     print("Bienvenido al menu de opciones del gestor de actividades")
     print("Opcion 1: Registro de Actividad por fecha y prioridad")
     print("Opcion 2: Buscar por palabra clave")
-    print("Opcion 3: Mostrar todas las actividades por ordern")
+    print("Opcion 3: Mostrar todas las actividades por orden")
     print("Opcion 4: eliminar actividad")
     print("Opcion 5: salir del programa")
-    opc = int(input("Elija una opcion valida del menu: "))
+    opc = input("Elija una opcion valida del menu: ")
+    
+    if opc == 1:
+        os.system('cls')
+        print("Elijio la opcion 1, registrar una actividad")
+        actividad = input("Ingrese la actividad: ").lower()
+        dia = input("Ingrese el dia ejemplo (Martes): ").lower()
+        mes = input("Ingrese el mes ejemplo (Diciembre): ").lower()
+        año = input("Ingrese el año ejemplo (2025): ")
+        prioridad = input("Ingrese la prioridad de la actividad: ").lower()
+        nueva_actividad = actividades(actividad, dia, mes, año, prioridad)
+        actividades_universitarias.append(nueva_actividad)
+
+
