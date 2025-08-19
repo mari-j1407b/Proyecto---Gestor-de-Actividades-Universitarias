@@ -36,4 +36,8 @@ while True:
         
     elif opc == 4:
     print("Se eligió la opción 4, Eliminar actividad")
+    print("Estas son todas las actividades registradas:")
+    for i in actividades_universitarias:
+        print(i)
+
 
