@@ -7,3 +7,9 @@ anotados de la siguiente manera:
 - **Acción**: [Creando base inicial del proyecto: estructura de carpetas, issues y label].
 - **Avances**:  
   - María Belén : [Tarea completada].
+  - **Acción**: [Desarrollo de sintaxis base del programa].  
+  - **Tareas**: [Diseñar arquitectura del código, Corregir errores de sintaxis iniciales].
+  - **Avances**: [Se eliminaron errores de sintaxis como .lower(), __init_, __str_, int(input) paso a solo ser input()].
+      - Mario Matheu : [Tarea completada].
+
+
