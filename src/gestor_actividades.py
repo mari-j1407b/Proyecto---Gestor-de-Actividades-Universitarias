@@ -16,5 +16,7 @@ actividades_universitarias = []
 elif opc == 3:
     os.system('cls')
     print("Se eligio la opcion 3, buscar actividades por mes, año, dia o categoria")
-    pass
-
+    criterio_busqueda = input("Ingrese el criterio de busqueda: ").lower()
+    
+    for actividad in actividades_universitarias:
+        pass
