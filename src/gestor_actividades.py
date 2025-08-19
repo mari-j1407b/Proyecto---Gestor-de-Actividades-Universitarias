@@ -8,3 +8,5 @@ class actividades:
         self.año = año
         self.prioridad = prioridad
         
+    def __str__(self):
+        return f"Nombre de la actividad {self.actividad} dia {self.dia} Mes {self.mes} año {self.año} con prioridad {self.prioridad}"
