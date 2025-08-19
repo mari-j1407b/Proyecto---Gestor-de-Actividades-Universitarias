@@ -37,14 +37,7 @@ while True:
     elif opc == "2":
         os.system('cls')
         print("Eligió la opción 2, buscar actividades por palabra clave")
-        criterio_busqueda = input("Ingrese la palabra clave: ").lower()
-        for actividad in actividades_universitarias:
-            if (criterio_busqueda in actividad.actividad.lower() or 
-                criterio_busqueda == actividad.dia.lower() or 
-                criterio_busqueda == actividad.mes.lower() or
-                criterio_busqueda == actividad.año.lower() or
-                criterio_busqueda == actividad.prioridad.lower()):
-                print(actividad)
+        palabra = input("Ingrese la palabra la clave: ").lower()
 
     elif opc == "3":
         os.system('cls')
