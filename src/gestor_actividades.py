@@ -59,7 +59,12 @@ while True:
         eldia = input("Ingrese el dia a buscar: ").lower()
         elmes = input("Ingrese le mes a buscar: ").lower()
         elaño = input("Ingrese el año a buscar: ").lower()
-        
+        for actividad in actividades_universitarias:
+            if eldia == actividad.dia:
+                if elmes == actividad.mes:
+                    if elaño == actividad.año:
+                        actividades_universitarias.remove(actividad)
+                        print("Se ha eliminado la actividad")
         print("Saliendo del programa…")
         break
 
