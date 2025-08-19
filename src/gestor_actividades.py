@@ -21,15 +21,7 @@ while True:
     print("Bienvenido al menu de opciones del gestor de actividades")
     print("Opcion 1: Registro de Actividad por fecha y prioridad")
     print("Opcion 2: Buscar por palabra clave")
-    print("Opcion 3: Mostrar todas las actividades por orden")
-    print("Opcion 4: Eliminar actividad") 
-    print("Opcion 5: Salir del programa")
-    try: # <<< Probando manejo de errores usando try
-        opc = int(input("Elija una opcion valida del menu: "))
-    except:
-        print("Debe ingresar un número válido")
-        continue
-    
-    if opc == 5:
-        print("Saliendo del programa...")
-        break
+    print("Opcion 3: Mostrar todas las actividades por ordern")
+    print("Opcion 4: eliminar actividad")
+    print("Opcion 5: salir del programa")
+    opc = int(input("Elija una opcion valida del menu: "))
