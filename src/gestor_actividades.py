@@ -10,3 +10,5 @@ class actividades:
         
     def __str__(self):
         return f"Nombre de la actividad {self.actividad} dia {self.dia} Mes {self.mes} año {self.año} con prioridad {self.prioridad}"
+
+actividades_universitarias = []
