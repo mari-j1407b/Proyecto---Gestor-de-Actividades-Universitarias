@@ -29,4 +29,9 @@ while True:
     if opc == 1:
         os.system('cls')
         print("Elijio la opcion 1, registrar una actividad")
-       
+        actividad = input("Ingrese la actividad: ").lower()
+        dia = input("Ingrese el dia ejemplo (Martes): ").lower()
+        mes = input("Ingrese el mes ejemplo (Diciembre): ").lower()
+        año = input("Ingrese el año ejemplo (2025): ")
+        prioridad = input("Ingrese la prioridad de la actividad: ").lower()
+      
