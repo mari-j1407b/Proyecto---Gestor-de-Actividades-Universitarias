@@ -19,6 +19,7 @@ actividades_universitarias = []
     print("Se eligio la opcion 3, buscar actividades por mes, año, dia o categoria")
     criterio_busqueda = input("Ingrese el criterio de busqueda: ").lower()
     
+<<<<<<< HEAD
     for actividad in actividades_universitarias:
         if (criterio_busqueda in actividad.actividad.lower() or 
             criterio_busqueda == actividad.dia.lower() or 
@@ -27,3 +28,16 @@ actividades_universitarias = []
             criterio_busqueda == actividad.prioridad.lower()):
             print(actividad)
     pass
+=======
+    if opc == 1:
+        os.system('cls')
+        print("Elijio la opcion 1, registrar una actividad")
+        actividad = input("Ingrese la actividad: ").lower()
+        dia = input("Ingrese el dia ejemplo (Martes): ").lower()
+        mes = input("Ingrese el mes ejemplo (Diciembre): ").lower()
+        año = input("Ingrese el año ejemplo (2025): ")
+        prioridad = input("Ingrese la prioridad de la actividad: ").lower()
+        nueva_actividad = actividades(actividad, dia, mes, año, prioridad)
+        actividades_universitarias.append(nueva_actividad)
+
+>>>>>>> ab4ad7f531e5e5dd7aaedc6ddc63d87ee8b547bc
