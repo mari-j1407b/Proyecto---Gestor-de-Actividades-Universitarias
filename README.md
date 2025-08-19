@@ -24,8 +24,6 @@ Si se desea seguir seleccionando opciones, saldrá la opción de presionar enter
 -Al escoger la opción 3 se le pide al usuario que ingrese el mes o año a buscar
 Se se desea continuar nuevamente, se mostrará la opción de seleccionar enter para continuar con el programa 
 
--Al escoger la opción 3 se le pide al usuario que ingrese el mes o año a buscar
-
 Seleccionando la opción 4 se le muestra al usuario las actividades registradas, como el nombre, día, mes y priodidad de dicha actividad, dando la opción de elegir qué actividad se desea eliminar.
 
 -Al seleccionar la opción 5 el programa se cerrará automáticamente 
