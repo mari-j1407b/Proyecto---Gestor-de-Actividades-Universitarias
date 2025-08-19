@@ -35,19 +35,5 @@ while True:
         actividades_universitarias.append(nueva_actividad)
         
     elif opc == 4:
-        os.system('cls')
-        print("Se eligió la opción 4, Eliminar actividad")
-        print("Estas son todas las actividades registradas:")
-        for i in actividades_universitarias:
-            print(i)
-
-        eldia = input("Ingrese el día a buscar: ").lower()
-        elmes = input("Ingrese el mes a buscar: ").lower()
-        elaño = input("Ingrese el año a buscar: ").lower()
-
-        for actividad in actividades_universitarias:
-            if eldia == actividad.dia:
-                if elmes == actividad.mes:
-                    if elaño == actividad.año:
-                        actividades_universitarias.remove(actividad)
-                        print("Se ha eliminado la actividad")
+    pass
+v
