@@ -49,8 +49,10 @@ while True:
     elif opc == "3":
         os.system('cls')
         print("Opción 3, mostrar todas las actividades")
+        mes_año = input("Ingrese el mes o año a buscar: ").lower()
         for actividad in actividades_universitarias:
-            print(actividad)
+            if mes_año in actividad.actividad or actividad.dia == mes_año or actividad.mes == mes_año or actividad.año == mes_año or actividad.prioridad == mes_año:
+                print(actividad)
 
     elif opc == "4":
         os.system('cls')
