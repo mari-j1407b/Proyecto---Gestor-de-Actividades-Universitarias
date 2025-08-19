@@ -1,7 +1,7 @@
 import os
 
 class actividades:
-    def __init_(self, actividad, dia, mes, año, prioridad):
+    def __init__(self, actividad, dia, mes, año, prioridad):
         self.actividad = actividad
         self.dia = dia
         self.mes = mes
@@ -33,3 +33,5 @@ while True:
         prioridad = input("Ingrese la prioridad de la actividad: ").lower()
         nueva_actividad = actividades(actividad, dia, mes, año, prioridad)
         actividades_universitarias.append(nueva_actividad)
+
+
