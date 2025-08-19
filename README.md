@@ -1,4 +1,4 @@
-Descripsión del proyecto: 
+Descripsión del proyecto: Gestor de Actividades Universitarias 
 Sistema para registrar, calificar y consultar actividades de estudiantes (clases, tareas, exámenes, eventos, reuniones)
 
 Instrucciones de uso:
@@ -11,3 +11,4 @@ Responsabale de pruebas y manejo de errores - Cindy Estrada
 Encargado de interfaz de usuario y flujo - Maria Belén Mendoza
 Gestor de documentación y repositorio - Luna Calderón 
 
+Problemas encontrados:
