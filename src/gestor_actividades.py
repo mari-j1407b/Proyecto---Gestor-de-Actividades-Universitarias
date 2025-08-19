@@ -48,7 +48,7 @@ while True:
         if eldia == actividad.dia:
             if elmes == actividad.mes:
                 if elaño == actividad.año:
-                    pass
+                    actividades_universitarias.remove(actividad)
 
 
 
