@@ -67,3 +67,12 @@ En varias ocasiones aparecieron errores de sintaxis por detalles como la falta d
 
 Búsqueda por palabras clave:
 La implementación de la búsqueda por palabras clave con el ciclo for resultó complicada al inicio, ya que no encontrábamos la manera adecuada de recorrer y filtrar las actividades y no contabamos con mucho dominio de dicho ciclo. Con bastante lectura, investigación y pruebas, logramos encontrar la lógica correcta y resolver el problema.
+
+
+--------------------------------------------------------------------------------------------
+## 📄 Cómo ver los PDFs incluidos en este proyecto
+
+- **En GitHub**: Haz clic en el archivo `.pdf` para previsualizarlo.
+- **En VS Code**:
+  1. Instala [vscode-pdf](vscode:extension/tomoki1207.pdf).
+  2. Abre cualquier PDF desde el explorador de archivos.
