@@ -34,4 +34,5 @@ while True:
         mes = input("Ingrese el mes ejemplo (Diciembre): ").lower()
         año = input("Ingrese el año ejemplo (2025): ")
         prioridad = input("Ingrese la prioridad de la actividad: ").lower()
-      
+        nueva_actividad = actividades(actividad, dia, mes, año, prioridad)
+        actividades_universitarias.append(nueva_actividad)
