@@ -34,4 +34,3 @@ while True:
         nueva_actividad = actividades(actividad, dia, mes, año, prioridad)
         actividades_universitarias.append(nueva_actividad)
 
-
