@@ -12,3 +12,19 @@ class actividades:
         return f"Nombre de la actividad {self.actividad} dia {self.dia} Mes {self.mes} año {self.año} con prioridad {self.prioridad}"
 
 actividades_universitarias = []
+
+while True:
+    import os
+
+while True:
+    os.system("cls")
+    print("Bienvenido al menu de opciones del gestor de actividades")
+    print("Opcion 1: Registro de Actividad por fecha y prioridad")
+    print("Opcion 2: Buscar por palabra clave")
+    print("Opcion 3: Mostrar todas las actividades por orden")
+    print("Opcion 4: eliminar actividad")
+    print("Opcion 5: salir del programa")
+    opc = input("Elija una opcion valida del menu: ")
+    
+    if opc == 5: 
+        break
