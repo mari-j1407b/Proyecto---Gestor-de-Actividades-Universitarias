@@ -35,5 +35,5 @@ while True:
         actividades_universitarias.append(nueva_actividad)
         
     elif opc == 4:
-    pass
-v
+    print("Se eligió la opción 4, Eliminar actividad")
+
