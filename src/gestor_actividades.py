@@ -27,9 +27,9 @@ while True:
         os.system('cls')
         print("Eligió la opción 1, registrar una actividad")
         actividad = input("Ingrese la actividad: ").lower()
-        dia = input("Ingrese el día (ej. Martes): ").lower()
-        mes = input("Ingrese el mes (ej. Diciembre): ").lower()
-        año = input("Ingrese el año (ej. 2025): ")
+        dia = input("Ingrese el día ejemplo  Martes): ").lower()
+        mes = input("Ingrese el mes ejemplo (Diciembre): ").lower()
+        año = input("Ingrese el año ejemplo (2025): ")
         prioridad = input("Ingrese la prioridad de la actividad: ").lower()
         nueva_actividad = Actividades(actividad, dia, mes, año, prioridad)
         actividades_universitarias.append(nueva_actividad)
@@ -37,38 +37,34 @@ while True:
     elif opc == "2":
         os.system('cls')
         print("Eligió la opción 2, buscar actividades por palabra clave")
-        criterio_busqueda = input("Ingrese la palabra clave: ").lower()
+        palabra = input("Ingrese la palabra la clave: ").lower()
         for actividad in actividades_universitarias:
-            if (criterio_busqueda in actividad.actividad.lower() or 
-                criterio_busqueda == actividad.dia.lower() or 
-                criterio_busqueda == actividad.mes.lower() or
-                criterio_busqueda == actividad.año.lower() or
-                criterio_busqueda == actividad.prioridad.lower()):
+            if palabra in actividad.actividad or actividad.dia == palabra or actividad.mes == palabra or actividad.año == palabra or actividad.prioridad == palabra:
                 print(actividad)
 
     elif opc == "3":
         os.system('cls')
-        print("Opción 3, mostrar todas las actividades")
+        print("Opción 3,  buscar actividades por mes, año, dia, o categotia")
+        mes_año = input("Ingrese el mes o año a buscar: ").lower()
         for actividad in actividades_universitarias:
-            print(actividad)
+            if mes_año in actividad.actividad or actividad.dia == mes_año or actividad.mes == mes_año or actividad.año == mes_año or actividad.prioridad == mes_año:
+                print(actividad)
 
     elif opc == "4":
         os.system('cls')
         print("Eligió la opción 4, eliminar actividad")
-        print("Estas son todas las actividades registradas:")
+        print(f"estas son todas la actividad resgitradas, ingrese la que quiere eliminar")
         for i in actividades_universitarias:
             print(i)
-
-        eldia = input("Ingrese el día a buscar: ").lower()
-        elmes = input("Ingrese el mes a buscar: ").lower()
+        eldia = input("Ingrese el dia a buscar: ").lower()
+        elmes = input("Ingrese le mes a buscar: ").lower()
         elaño = input("Ingrese el año a buscar: ").lower()
-
-        actividades_a_eliminar = [act for act in actividades_universitarias if act.dia == eldia and act.mes == elmes and act.año == elaño]
-        for act in actividades_a_eliminar:
-            actividades_universitarias.remove(act)
-            print(f"Se ha eliminado la actividad: {act}")
-
-    elif opc == "5":
+        for actividad in actividades_universitarias:
+            if eldia == actividad.dia:
+                if elmes == actividad.mes:
+                    if elaño == actividad.año:
+                        actividades_universitarias.remove(actividad)
+                        print("Se ha eliminado la actividad")
         print("Saliendo del programa…")
         break
 
