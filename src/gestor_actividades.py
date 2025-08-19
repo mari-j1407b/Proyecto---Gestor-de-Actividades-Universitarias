@@ -65,9 +65,13 @@ while True:
                     if elaño == actividad.año:
                         actividades_universitarias.remove(actividad)
                         print("Se ha eliminado la actividad")
-        print("Saliendo del programa…")
-        break
 
+    elif opc == "5":
+        os.system('cls')
+        print("Se eligio la opcion 5, se cerrara el programa")
+        eliminar = input("")
+        break
     else:
-        print("Opción no válida, intente de nuevo.")
-        input("Presione Enter para continuar...")
+        os.system('cls')
+        print("opcion no valida")
+    input("Presione enter para continuar...")
