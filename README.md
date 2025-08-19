@@ -36,8 +36,8 @@ Encargado de interfaz de usuario y flujo - Maria Belén Mendoza
 Gestor de documentación y repositorio - Luna Calderón 
 
 Problemas encontrados:
-## 1. [Problemas al realizar el push request]
-- **Descripción**: Al intentar hacer `git push origin main` aparecía el error de no poderlo realizar correcamente'`.
-- **Solución**: Se ejecutó `git pull origin main --rebase` para traer los cambios más recientes
+Problemas al realizar el push request
+-Descripción: Al intentar hacer `git push origin main` aparecía el error de no poderlo realizar correcamente'`.
+-Solución: Se ejecutó `git pull origin main --rebase` para traer los cambios más recientes
   del repositorio remoto y después se volvió a hacer `git push origin main`.
-- **Estado**: Resuelto ✅.
+-Estado: Resuelto.
